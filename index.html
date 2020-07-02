@@ -21,7 +21,9 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
-  
+  <script
+  src="https://www.paypal.com/sdk/js?client-id="> // Required. Replace SB_CLIENT_ID with your sandbox client ID.
+</script>
   
 </head>
 <body>
@@ -53,8 +55,12 @@
                     <a class="nav-link link text-white display-4" href="https://github.com/GeshemKaved"><span class="mbri-github mbr-iconfont mbr-iconfont-btn"></span>
                         </a>
                 </li></ul>
-            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="https://www.paypal.me/geshemkaved">PayPal<br>
-                    </a></div>
+            <div class="navbar-buttons mbr-section-btn">  <script>
+                paypal.Buttons().render('#paypal-button-container');
+                // This function displays Smart Payment Buttons on your web page.
+              </script>
+              <!-- <a class="btn btn-sm btn-primary display-4" href="https://www.paypal.me/geshemkaved">PayPal<br></a> -->
+            </div>
         </div>
     </nav>
 </section>
@@ -73,7 +79,7 @@
                 <p class="mbr-text pb-3 mbr-fonts-style display-5">
                     A new and exciting way for long range communications between people using the latest technology.</p>
                 <div class="mbr-section-btn"><a class="btn btn-md btn-secondary display-4" href="https://geshemkaved.github.io">LEARN MORE</a>
-                    <a class="btn btn-md btn-white-outline display-4" href="https://geshemkaved.github.io">LIVE DEMO</a></div>
+                    <a class="btn btn-md btn-white-outline display-4" href="https://geshemkaved.github.io">Buy Now</a></div>
             </div>
         </div>
     </div>
